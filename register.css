@@ -1,0 +1,9 @@
+.registration {
+    width: 80%;
+    box-shadow: 0px 0px 20px rgba(113, 113, 113, 0.481);
+    height: 700px;
+}
+
+.bt {
+    background-image: linear-gradient(to bottom, #10466a, #5089c2);
+}
