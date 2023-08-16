@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="cupcake">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="user_profile.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet">
+    <!-- <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <main>
+        <div class="container-xl px-4 mt-4">
+            <div class="row">
+                <div class="col-xl-4 rounded-5">
+                    <!-- Profile picture card-->
+                    <div class="card section  rounded-4 mb-4 mb-xl-0">
+                        <div class="acc ps-4 pt-1 fs-4 font-weight-bold">Profile Picture</div>
+                        <div class="card-body text-center">
+                            <!-- Profile picture image-->
+                            <img class="img-account-profile rounded-circle mb-2" src="undraw_medicine_b1ol.png" alt="">
+
+                            <!-- Profile picture upload button-->
+                            <button class="btn-color" type="button">Upload new image</button>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-xl-8">
+                    <!-- Account details card-->
+                    <div class=" section card mb-4 rounded-4 ">
+                        <div class="  acc fs-4 font-weight-bold ps-4 pt-1">Account Details</div>
+                        <div class="card-body">
+                            <form>
+                                <!-- Form Group (username)-->
+                                <div class="mb-3">
+                                    <label class="small mb-1 fs-5" for="inputUsername">Username (how your name will
+                                        appear
+                                        to
+                                        other users on the site)</label>
+                                    <input class="form-control" id="inputUsername" type="text"
+                                        placeholder="Enter your username">
+                                </div>
+                                <!-- Form Row-->
+                                <div class="row gx-3 mb-3">
+                                    <div class="col-md-6">
+                                        <label class="small mb-1 fs-5" for="inputFirstName">Name</label>
+                                        <input class="form-control" id="inputFirstName" type="text"
+                                            placeholder="Enter your first name">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label class="small mb-1 fs-5" for="Gender">Gender</label>
+                                        <input class="form-control" id="Gender" type="text">
+                                    </div>
+
+                                </div>
+                                <!-- Form Row        -->
+                                <div class="row gx-3 mb-3">
+                                    <!-- Form Group (organization name)-->
+                                    <div class="col-md-6">
+                                        <label class="small mb-1 fs-5" for="age">Age</label>
+                                        <input class="form-control" id="age" type="number"
+                                            placeholder="Enter your age here">
+                                    </div>
+                                    <!-- Form Group (location)-->
+                                    <div class="col-md-6">
+                                        <label class="small mb-1 fs-5" for="address">Address</label>
+                                        <input class="form-control" id="address" type="text"
+                                            placeholder="Enter your address">
+                                    </div>
+                                </div>
+                                <!-- Form Group (email address)-->
+                                <div class="mb-3">
+                                    <label class="small mb-1 fs-5" for="inputEmailAddress">Email address</label>
+                                    <input class="form-control" id="inputEmailAddress" type="email"
+                                        placeholder="Enter your email address">
+                                </div>
+                                <!-- Form Row-->
+                                <div class="row gx-3 mb-3">
+                                    <!-- Form Group (phone number)-->
+                                    <div class="col-md-6">
+                                        <label class="small mb-1 fs-5" for="inputPhone">Contact</label>
+                                        <input class="form-control" id="inputPhone" type="tel"
+                                            placeholder="Enter your contact number">
+                                    </div>
+                                    <!-- Form Group (birthday)-->
+                                    <div class="col-md-6">
+                                        <label class="small mb-1 fs-5" for="BG">Blood Group</label>
+                                        <input class="form-control" id="BG" type="text" name="blood group"
+                                            placeholder="Enter your blood Group">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label class="small mb-1 fs-5" for="nid">NID</label>
+                                        <input class="form-control" id="nid" type="text" name="blood group"
+                                            placeholder="Enter your blood Group">
+                                    </div>
+                                </div>
+                                <!-- Save changes button-->
+                                <button class="btn-color" type="button">Save changes</button>
+                                <button class="btn-color" type="button"><a href="donation _form.html">want to
+                                        donate</a></button>
+                                <button class="btn-color" type="button">Request for Blood</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
