@@ -31,27 +31,35 @@
                             id="con" type="text">
                     </div>
                     <div> <label for="ag">Age:</label><br><input class="w-[300px] bg-transparent border-b-2" id="ag"
-                            type="number">
+                            type="text">
                     </div>
-                    <div><label for="bg">Blood Group:</label> <br><input class="w-[300px] bg-transparent border-b-2"
-                            type="text" id="bg">
+                    <div><label for="bg">Blood Group:</label> <br>
+                        <select name="blood_group" class="w-[100px] bg-transparent text-white" id="bg">
+                            <option value="A+">A+</option>
+                            <option value="A-">A-</option>
+                            <option value="O+">O+</option>
+                            <option value="O-">O-</option>
+                        </select>
+
                     </div>
 
                     <div>
-                        <label for="nid">NID: <br> <input class="w-[300px] bg-transparent border-b-2" type="number"
+                        <label for="nid">NID: <br> <input class="w-[300px] bg-transparent border-b-2" type="text"
                                 name="" id="nid"></label>
                     </div>
                     <div>
-                        <label for="add">Address: <br> <input class="w-[300px] bg-transparent border-b-2"
+                        <label for="add">Address: <br> <input id="add" class="w-[300px] bg-transparent border-b-2"
                                 type="text"></label>
                     </div>
                     <div>
-                        <h1>Email:</h1>
-                        <input class="bg-transparent border-b-2 w-[300px]  " type="email"
-                            placeholder="Enter your email..." required>
+                        <label for="email">Email: <br>
+                            <input class="bg-transparent border-b-2 w-[300px] " type="email" id="email"
+                                placeholder="Enter your email..." required></label>
                     </div>
-                    <div>Gender <br> Male <input type="radio" name="Gender" id="M">
-                        Female<input type="radio" name="Gender" id="F">
+                    <div>
+                        <label for="Gender">
+                            Gender <br> Male <input id="Gender" type="radio" name="Gender" id="M"></label>
+                        Female<input id="gender" type="radio" name="Gender" id="F">
                     </div>
                 </div>
                 <button class=" bt text-white p-5 rounded-lg"><a href="user_web_view.html">SUBMIT
