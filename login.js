@@ -5,7 +5,7 @@ document.getElementById('btn-submit').addEventListener('click', function () {
         window.location.href = 'user_web_view.html';
     }
     else {
-        alert('chaprabo bainchod !!');
+        alert('you entered a invalid pass or email!!');
         document.getElementById('password').value = '';
         document.getElementById('email').value = '';
     }
